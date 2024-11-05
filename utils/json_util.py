@@ -1,6 +1,6 @@
 import json
 from datetime import datetime
-from compat import Iterator
+from utils.compat import Iterator
 from acme.messages import ChallengeBody
 from peewee import ModelSelect, Model
 from playhouse.shortcuts import model_to_dict
