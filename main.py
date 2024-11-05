@@ -3,9 +3,7 @@ from flask import Flask, request
 from router import resgister, api_map
 from config import EnvConfig
 
-app = Flask(
-    import_name=__name__
-)
+app = Flask(__name__)
 
 
 @app.route('/')
